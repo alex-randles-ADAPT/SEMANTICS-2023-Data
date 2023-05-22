@@ -1,7 +1,7 @@
 # SEMANTICS-2023-Data
 A  repository containing supplementary information for the submission to SEMANTICS 2023. 
 
-A **[Video Demonstration](Video_Demo.mp4)** of the R2[RML] Framework is available. 
+**Video_Demo.mp4** is a video demonstration of the R2[RML] Framework is available. 
 
 ## Experimentation-Results
 The 50 distinct RDF Concepts used during the experiment are here: [Experiment_Concepts.pdf](Experiment_Concepts.pdf)
