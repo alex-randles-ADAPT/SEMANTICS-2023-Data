@@ -4,7 +4,7 @@ A  repository containing supplementary information for the submission to SEMANTI
 **Video_Demo.mp4** is a video demonstration of the R2[RML] Framework is available. 
 
 ## Experimentation-Results
-The 50 distinct RDF Concepts used during the experiment are here: [Experiment_Concepts.pdf](Experiment_Concepts.pdf). These 50 mappings were retrieved from the 5 R2RML mappings containined in [/Experiment-Mappings](./Experiment-Mappings). 
+The 50 distinct RDF Concepts used during the experiment are outlined here: [Experiment_Concepts.pdf](Experiment_Concepts.pdf). These 50 mappings were retrieved from the 5 R2RML mappings containined in [/Experiment-Mappings](./Experiment-Mappings). 
 ### Results of Research Question 1 (RQ1) 
 **RQ1** investigated the following:  *"To what extent will ChatGPT produce semantically correct data for certain values in a declarative uplift mapping (e.g. type, range, domain, descriptions)?"* 
 
