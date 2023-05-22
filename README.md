@@ -6,7 +6,7 @@ A **[Video Demonstration](Video_Demo.mp4)** of the R2[RML] Framework is availabl
 ## Experimentation-Results
 The 50 distinct RDF Concepts used during the experiment are here: [Experiment_Concepts.pdf](Experiment_Concepts.pdf)
 ### Results of RQ1 
-**Research Question 1 (RQ1)** investigated the following:  *"To what extent will ChatGPT produce semantically correct data for certain values in a declarative uplift mapping (e.g. type, range, domain, disjoint, descriptions)?"* 
+**Research Question 1 (RQ1)** investigated the following:  *"To what extent will ChatGPT produce semantically correct data for certain values in a declarative uplift mapping (e.g. type, range, domain, descriptions)?"* 
 
 The results are stored in **[/Experiment-1-Results](./Experiment-1-Results)** and are as follows: 
 
