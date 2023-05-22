@@ -1,5 +1,4 @@
 ASK 
 WHERE { 
-       GRPAH <graph_name> 
-		{ <concept_name> <test_term> <chatgpt_output> . }
+    GRPAH <ontology> { <concept_name> <test_term> <chatgpt_output> . }
 }
