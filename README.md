@@ -26,7 +26,6 @@ The results are stored in **[/Experiment-2-Results](./Experiment-2-Results)** an
 
 The directory structure is outlined below: 
 
-.
 ├── code-generated
 │   ├── instance_graphs
 │   │   ├── graph_foaf_accountName .ttl
