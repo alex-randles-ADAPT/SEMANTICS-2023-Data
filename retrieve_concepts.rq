@@ -1,0 +1,5 @@
+PREFIX rr: <http://www.w3.org/ns/r2rml#>
+SELECT DISTINCT ?concept 
+WHERE { 
+  ?pom rr:predicate|rr:class ?concept 
+}
