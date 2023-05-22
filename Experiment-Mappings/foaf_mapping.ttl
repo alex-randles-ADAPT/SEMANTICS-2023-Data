@@ -1,0 +1,61 @@
+#    foaf_classes = ["foaf:Agent", "foaf:Person", "foaf:Document", "foaf:Group", "foaf:OnlineAccount"]
+#    foaf_properties = ["foaf:name", "foaf:knows", "foaf:member", "foaf:accountName ", "foaf:page"]
+
+
+@prefix rr: <http://www.w3.org/ns/r2rml#>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+
+<#TriplesMap1>
+    rr:logicalTable [ rr:tableName "SAMPLE_DATA" ];
+    rr:subjectMap [
+        rr:template "http://data.example.com/sampleTriples-1/";
+        rr:class foaf:Agent;
+    ];
+    rr:predicateObjectMap [
+        rr:predicate foaf:name;
+        rr:objectMap [ rr:column "COLUMN_NAME_1" ];
+    ].
+
+<#TriplesMap2>
+    rr:logicalTable [ rr:tableName "SAMPLE_DATA" ];
+    rr:subjectMap [
+        rr:template "http://data.example.com/sampleTriples-2/";
+        rr:class foaf:Person;
+    ];
+    rr:predicateObjectMap [
+        rr:predicate foaf:knows;
+        rr:objectMap [ rr:column "COLUMN_NAME_2" ];
+    ].
+
+<#TriplesMap3>
+    rr:logicalTable [ rr:tableName "SAMPLE_DATA" ];
+    rr:subjectMap [
+        rr:template "http://data.example.com/sampleTriples-3/";
+        rr:class foaf:Document;
+    ];
+    rr:predicateObjectMap [
+        rr:predicate foaf:page;
+        rr:objectMap [ rr:column "COLUMN_NAME_3" ];
+    ].
+
+<#TriplesMap4>
+    rr:logicalTable [ rr:tableName "SAMPLE_DATA" ];
+    rr:subjectMap [
+        rr:template "http://data.example.com/sampleTriples-4/";
+        rr:class foaf:Group;
+    ];
+    rr:predicateObjectMap [
+        rr:predicate foaf:member;
+        rr:objectMap [ rr:column "COLUMN_NAME_4" ];
+    ].
+
+<#TriplesMap5>
+    rr:logicalTable [ rr:tableName "SAMPLE_DATA" ];
+    rr:subjectMap [
+        rr:template "http://data.example.com/sampleTriples-5/";
+        rr:class foaf:OnlineAccount;
+    ];
+    rr:predicateObjectMap [
+        rr:predicate foaf:accountName;
+        rr:objectMap [ rr:column "COLUMN_NAME_5" ];
+    ].
