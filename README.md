@@ -26,6 +26,7 @@ The results are stored in **[/Experiment-2-Results](./Experiment-2-Results)** an
 
 The directory structure is outlined below: 
 
+```bash
 ├── code-generated
 │   ├── instance_graphs
 │   │   ├── graph_foaf_accountName .ttl
@@ -225,4 +226,4 @@ The directory structure is outlined below:
 │   ├── rdf_type_semantic_results.docx
 │   ├── SHACL_results.docx
 │   └── SPARQL_results.docx
-
+```
