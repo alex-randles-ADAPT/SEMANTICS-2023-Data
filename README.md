@@ -8,7 +8,7 @@ The 50 distinct RDF Concepts used during the experiment are here: [Experiment_Co
 ### Results of RQ1 
 **Research Question 1 (RQ1)** investigated the following:  *"To what extent will ChatGPT produce semantically correct data for certain values in a declarative uplift mapping (e.g. type, range, domain, descriptions)?"* 
 
-The results are stored in **[/Experiment-1-Results](./Experiment-1-Results)** and are as follows: 
+The results are stored in **/Experiment-1-Results** and are as follows: 
 
 - **[Type Results](./Experiment-1-Results/RDF_TYPE_RESULTS.pdf)** Tested the semantic correctness of *rdf:type*. 
 - **[Domain Results](./Experiment-1-Results/RDF_TYPE_RESULTS.pdf)** Tested the semantic correctness of *rdfs:domain*. 
@@ -18,7 +18,7 @@ The results are stored in **[/Experiment-1-Results](./Experiment-1-Results)** an
 ### Results of RQ2
 **Research Question 2 (RQ2)** investigated the following:  *"To what extent will ChatGPT produce syntactically valid RDF data and SPARQL queries?"* 
 
-The results are stored in **[/Experiment-2-Results](./Experiment-2-Results)** and are as follows: 
+The results are stored in **/Experiment-2-Results** and are as follows: 
 - **[Instance Graph Results](./Experiment-1-Results/RDF_TYPE_RESULTS.pdf)** Tested the syntactic correctness of generated instance graphs. 
 - **[SPARQL Query Results](./Experiment-1-Results/RDF_TYPE_RESULTS.pdf)** Tested the syntactic correctness of generated SPARQL queries. 
 - **[SHACL Shape Results](./Experiment-1-Results/RDF_TYPE_RESULTS.pdf)** Tested the syntactic correctness of generated SHACL shape graphs. 
