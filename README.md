@@ -10,18 +10,18 @@ The 50 distinct RDF Concepts used during the experiment are outlined here: [Expe
 
 The results are stored in **/Experiment-1-Results** and are as follows: 
 
-- **[Type Results](./Experiment-1-Results/RDF_TYPE_RESULTS.pdf)** Tested the semantic correctness of *rdf:type*. 
-- **[Domain Results](./Experiment-1-Results/RDF_TYPE_RESULTS.pdf)** Tested the semantic correctness of *rdfs:domain*. 
-- **[Results Results](./Experiment-1-Results/RDF_TYPE_RESULTS.pdf)** Tested the semantic correctness of *rdfs:range*. 
-- **[Label Results](./Experiment-1-Results/RDF_TYPE_RESULTS.pdf)** Tested the semantic correctness of *rdfs:label*. 
+- **[Type Results](./Experiment-1-Results/Type_Results.pdf)** Tested the semantic correctness of *rdf:type*. 
+- **[Domain Results](./Experiment-1-Results/Domain_Results.pdf)** Tested the semantic correctness of *rdfs:domain*. 
+- **[Range Results](./Experiment-1-Results/Range_Results.pdf)** Tested the semantic correctness of *rdfs:range*. 
+- **[Label Results](./Experiment-1-Results/Label_Results.pdf)** Tested the semantic correctness of *rdfs:label*. 
 
 ### Results of Research Question 2 (RQ2)
 **RQ2** investigated the following:  *"To what extent will ChatGPT produce syntactically valid RDF data and SPARQL queries?"* 
 
 The results are stored in **/Experiment-2-Results** and are as follows: 
-- **[Instance Graph Results](./Experiment-1-Results/RDF_TYPE_RESULTS.pdf)** Tested the syntactic correctness of generated instance graphs. 
-- **[SPARQL Query Results](./Experiment-1-Results/RDF_TYPE_RESULTS.pdf)** Tested the syntactic correctness of generated SPARQL queries. 
-- **[SHACL Shape Results](./Experiment-1-Results/RDF_TYPE_RESULTS.pdf)** Tested the syntactic correctness of generated SHACL shape graphs. 
+- **[Instance Graph Results](./Experiment-1-Results/Instance_Results.pdf)** Tested the syntactic correctness of generated instance graphs. 
+- **[SPARQL Query Results](./Experiment-1-Results/SPARQL_Results.pdf)** Tested the syntactic correctness of generated SPARQL queries. 
+- **[SHACL Shape Results](./Experiment-1-Results/SHACL_Results.pdf)** Tested the syntactic correctness of generated SHACL shape graphs. 
 
 
 The directory structure is outlined below: 
