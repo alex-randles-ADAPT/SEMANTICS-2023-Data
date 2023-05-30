@@ -19,9 +19,9 @@ The results are stored in **/Experiment-1-Results** and are as follows:
 **RQ2** investigated the following:  *"To what extent will ChatGPT produce syntactically valid RDF data and SPARQL queries?"* 
 
 The results are stored in **/Experiment-2-Results** and are as follows: 
-- **[Instance Graph Results](./Experiment-1-Results/Instance_Results.pdf)** Tested the syntactic correctness of generated instance graphs. 
-- **[SPARQL Query Results](./Experiment-1-Results/SPARQL_Results.pdf)** Tested the syntactic correctness of generated SPARQL queries. 
-- **[SHACL Shape Results](./Experiment-1-Results/SHACL_Results.pdf)** Tested the syntactic correctness of generated SHACL shape graphs. 
+- **[Instance Graph Results](./Experiment-2-Results/Instance_Results.pdf)** Tested the syntactic correctness of generated instance graphs. 
+- **[SPARQL Query Results](./Experiment-2-Results/SPARQL_Results.pdf)** Tested the syntactic correctness of generated SPARQL queries. 
+- **[SHACL Shape Results](./Experiment-2-Results/SHACL_Results.pdf)** Tested the syntactic correctness of generated SHACL shape graphs. 
 
 
 The directory structure is outlined below: 
