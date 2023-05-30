@@ -6,7 +6,7 @@ A  repository containing supplementary information for the submission to SEMANTI
 ## Experimentation-Results
 The 50 distinct RDF Concepts used during the experiment are outlined here: [Experiment_Concepts.pdf](Experiment_Concepts.pdf). These 50 mappings were retrieved from the 5 R2RML mappings containined in [/Experiment-Mappings](./Experiment-Mappings). 
 ### Results of Research Question 1 (RQ1) 
-**RQ1** investigated the following:  *"To what extent will ChatGPT produce semantically correct data for certain values in a declarative uplift mapping (e.g. type, range, domain, descriptions)?"* 
+**RQ1** investigated the following:  *"To what extent will ChatGPT produce semantically correct data for certain values in a declarative uplift mapping (e.g. type, range, domain and label)?"* 
 
 The results are stored in **/Experiment-1-Results** and are as follows: 
 
