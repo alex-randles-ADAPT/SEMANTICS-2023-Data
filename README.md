@@ -85,8 +85,6 @@ The directory structure is outlined below:
 │   │   ├── graph_skos_OrderedCollection.ttl
 │   │   ├── graph_skos_semanticRelation.ttl
 │   │   └── graph_skos_topConceptOf.ttl
-│   ├── Instance_Results.pdf
-│   ├── SHACL_Results.pdf
 │   ├── SHACL Shapes
 │   │   ├── shape_foaf_accountName.ttl
 │   │   ├── shape_foaf_Agent.ttl
@@ -189,6 +187,8 @@ The directory structure is outlined below:
 │   │   ├── query_skos_OrderedCollection.rq
 │   │   ├── query_skos_semanticRelation.rq
 │   │   └── query_skos_topConceptOf.rq
+│   ├── Instance_Results.pdf
+│   ├── SHACL_Results.pdf
 │   └── SPARQL_Results.pdf
 ├── Experiment_Concepts.pdf
 ├── Experiment-Mappings
