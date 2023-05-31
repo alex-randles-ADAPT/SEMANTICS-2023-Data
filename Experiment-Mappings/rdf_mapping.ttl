@@ -1,7 +1,3 @@
-#   rdf_classes = ["rdf:List", "rdf:Bag", "rdf:Statement", "rdf:Property", "rdf:HTML"]
-#    rdf_properties = ["rdf:first", "rdf:type", "rdf:subject", "rdf:value", "rdf:nil"]
-
-
 @prefix rr: <http://www.w3.org/ns/r2rml#>.
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
@@ -14,7 +10,7 @@
     ];
     rr:predicateObjectMap [
         rr:predicate rdf:type;
-        rr:objectMap [ rr:object rdfs:Class ];
+        rr:object rdfs:Class ;
     ].
 
 <#TriplesMap2>
@@ -25,8 +21,13 @@
     ];
     rr:predicateObjectMap [
         rr:predicate rdf:first;
-        rr:objectMap [ rr:column "COLUMN_NAME_2" ];
-    ].
+        rr:object <http://data.example.com/sampleList-1/>;
+    ];
+    rr:predicateObjectMap [
+        rr:predicate rdf:rest;
+        rr:object <http://data.example.com/sampleList-2/>;
+    ];
+    .
 
 <#TriplesMap3>
     rr:logicalTable [ rr:tableName "SAMPLE_DATA" ];

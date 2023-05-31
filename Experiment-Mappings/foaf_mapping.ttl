@@ -1,9 +1,6 @@
-#    foaf_classes = ["foaf:Agent", "foaf:Person", "foaf:Document", "foaf:Group", "foaf:OnlineAccount"]
-#    foaf_properties = ["foaf:name", "foaf:knows", "foaf:member", "foaf:accountName ", "foaf:page"]
-
-
 @prefix rr: <http://www.w3.org/ns/r2rml#>.
 @prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
 
 <#TriplesMap1>
     rr:logicalTable [ rr:tableName "SAMPLE_DATA" ];
@@ -24,7 +21,7 @@
     ];
     rr:predicateObjectMap [
         rr:predicate foaf:knows;
-        rr:objectMap [ rr:column "COLUMN_NAME_2" ];
+        rr:object "http://data.example.com/samplePerson-1/";
     ].
 
 <#TriplesMap3>
@@ -34,7 +31,7 @@
         rr:class foaf:Document;
     ];
     rr:predicateObjectMap [
-        rr:predicate foaf:page;
+        rr:predicate rdfs:comment;
         rr:objectMap [ rr:column "COLUMN_NAME_3" ];
     ].
 
@@ -46,7 +43,7 @@
     ];
     rr:predicateObjectMap [
         rr:predicate foaf:member;
-        rr:objectMap [ rr:column "COLUMN_NAME_4" ];
+        rr:object <http://data.example.com/sampleTriples-1/>;
     ].
 
 <#TriplesMap5>
